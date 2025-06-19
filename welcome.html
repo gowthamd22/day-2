@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Gowtham Portfolio</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+    }
+    video.bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .welcome {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    .welcome h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .welcome p {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+    .welcome a {
+      background: #f9c846;
+      color: #000;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop class="bg-video">
+    <source src="video.mp4" type="video/mp4" />
+  </video>
+
+  <div class="welcome">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Gowtham – Web Developer & Designer</p>
+    <a href="portfolio.html">Enter Portfolio</a>
+  </div>
+</body>
+</html>
